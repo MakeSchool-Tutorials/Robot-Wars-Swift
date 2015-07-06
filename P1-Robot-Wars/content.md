@@ -42,3 +42,7 @@ Your robot will rely on callbacks to get updates on current game information. Yo
 You can call `moveAhead`, `moveBack`, `shoot`, `turnGunLeft`, `turnGunRight`, `turnRobotLeft`, and `turnRobotRight` from your robot class to control your robot.
 
 `cancelActiveAction` should be used in callbacks to immediately stop the current action. If you do not call this, the current action will continue until it is finished. This means if you get hit at the beginning of a `moveAhead(100)` action and `cancelActiveAction` is not called in the `gotHit` callback, the robot will continue to move until it reaches it's destination. Execution of the `gotHit` callback will start once it's last move is done. Starting `gotHit` with `cancelActiveAction` will allow it's execution to begin immediately.
+
+#Getting started
+
+To get started, download the [Robot Wars project](https://github.com/MakeSchool-Tutorials/Robot-Wars-Swift/archive/master.zip) and extract it's contents. In it, you will find a SpriteBuilder project containing a Robot Wars and a `docs/` folder that contains an html file detailing the full `Robot` class.

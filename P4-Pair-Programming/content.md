@@ -24,4 +24,6 @@ Begin with trying to beat SimpleRobot. Once you can do that, move on and try to 
 
 Remember, the entire documentation is in `/docs` folder in the project you downloaded. You should read it over now with your partner.
 
-Now its time to try out your own strategy. With your partner, plan out a robot. Start pair programming it together as described above. Good luck to you and your partner!
+Now its time to try out your own strategy. With your partner, plan out a robot. Start pair programming it together as described above. You will be working on a single computer for this assignment.
+
+Good luck to you and your partner!
