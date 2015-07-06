@@ -21,7 +21,7 @@ All Robots inherit from the "Robot" class and implement the callback methods we 
 
 Let's get started with SimpleRobot. Open up *SimpleRobot.swift*.
 
-SimpleRobot implements the methods hitWall, run, and gotHit. The endless loop in run zigzags around and blindly shoots. hitWall gets called when it runs into a wall. SimpleRobot's response is to turn 180 degrees when it hits it's front and to turn 90 degrees in the opposite direction when it hits it's right or left sides. gotHit invokes a knee jerk reaction of shooting and then turning and moving out of the way.
+SimpleRobot implements the methods hitWall, run, and gotHit. The endless loop in run zigzags around and blindly shoots. hitWall gets called when it runs into a wall. SimpleRobot's response is to turn 180 degrees when it hits it's front and to turn 90 degrees in the opposite direction when it hits it's right or left sides. The gotHit callback invokes a knee jerk reaction of shooting, followed by a turn and move to navigate the robot out of the way of additional bullets.
 
 While there are no explicit states used by SimpleRobot, we can see three states: default, scatter, and turnaround. The robot starts in the default state. It moves to the scatter state when getting hit then moves back to default after it shoots and moves. It enters the turnaround state when it hits a wall and moves back to the default state after turning and moving away from the wall.
 

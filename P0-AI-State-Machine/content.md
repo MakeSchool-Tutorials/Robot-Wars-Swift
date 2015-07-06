@@ -3,7 +3,7 @@ title: "AI and State Machines"
 slug: ai-state-machine
 ---
 
-In this exercise, you'll learn a bit about basic artificial intelligence through a friendly competition. During *Robot Wars* you'll program the behavior a virtual robot. Your robot will go head to head with other robots in the *Robot Wars Showdown*!
+In this exercise, you'll learn a bit about basic artificial intelligence through a friendly competition. During *Robot Wars* you'll program the behavior of a virtual robot. Your robot will go head-to-head with other robots in the *Robot Wars Showdown*!
 
 #An introduction to AI
 
