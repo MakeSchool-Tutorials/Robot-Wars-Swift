@@ -7,7 +7,7 @@ In this exercise, you'll learn a bit about basic artificial intelligence through
 
 #An introduction to AI
 
-Artificial intelligence (or AI) is what makes enemies in games move in meaningful ways. Developers program enemies to implements behaviors that make them seem as if they are thinking for themselves. These AIs can be as simple as those behind Goombas in old Mario games (move until they hit something, turn around and repeat the process) or as complex as those used in the game [http://www.valvesoftware.com/publications/2009/ai_systems_of_l4d_mike_booth.pdf](Left 4 Dead).
+Artificial intelligence (or AI) is what makes enemies in games move in meaningful ways. Developers program enemies to implements behaviors that make them seem as if they are thinking for themselves. These AIs can be as simple as those behind Goombas in old Mario games (move until they hit something, turn around and repeat the process) or as complex as those used in the game [Left 4 Dead](http://www.valvesoftware.com/publications/2009/ai_systems_of_l4d_mike_booth.pdf).
 
 #Finite state machines
 

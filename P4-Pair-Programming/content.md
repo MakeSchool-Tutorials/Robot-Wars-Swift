@@ -9,7 +9,7 @@ The driver is the person currently programming. Before starting, the driver and 
 
 The navigator does not dictate code. They are the drivers safety net and help them think through the problem. The navigator should be reading what the driver is writing as they write while looking for possible bugs and edge cases the driver may have not noticed.
 
-Constant communication is key while pair programming! Read some more about best practices in [http://www.jamesshore.com/Agile-Book/pair_programming.html](this excerpt) from The Art of Agile Development.
+Constant communication is key while pair programming! Read some more about best practices in [this excerpt](http://www.jamesshore.com/Agile-Book/pair_programming.html) from The Art of Agile Development.
 
 Now it's time for you to find a partner!
 
