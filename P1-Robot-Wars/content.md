@@ -3,7 +3,7 @@ title: "Robot Wars!"
 slug: robot-war
 ---
 
-We have already set up a basic `Robot` class that all robots will subclass. You should read through the [full documentation](../robot_docs.html) before you get started programming your own robot but we'll discuss the basics here.
+We have already set up a basic `Robot` class that all robots will subclass. We'll discuss the basics here and then show you were to find the full documentation.
 
 ![](./robot.png)
 
