@@ -1,6 +1,6 @@
 ---
 title: "Robot Wars!"
-slug: robot-wars
+slug: robot-war
 ---
 
 We have already set up a basic `Robot` class that all robots will subclass. You should read through the [full documentation](../robot_docs.html) before you get started programming your own robot but we'll discuss the basics here.
