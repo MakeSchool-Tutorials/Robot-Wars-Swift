@@ -35,7 +35,7 @@ Your robot will rely on callbacks to get updates on current game information. Yo
 
 ##bulletHitEnemy(bullet:)
 
-`bulletHitEnemy` is called when you successfully hit the enemy robot. You can get the enemies current position with `bullet.bulletOwner.position()`.
+`bulletHitEnemy` is called when you successfully hit the enemy robot.
 
 #Robot actions
 
