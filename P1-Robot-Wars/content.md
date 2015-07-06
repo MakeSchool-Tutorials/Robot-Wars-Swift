@@ -45,4 +45,4 @@ You can call `moveAhead`, `moveBack`, `shoot`, `turnGunLeft`, `turnGunRight`, `t
 
 #Getting started
 
-To get started, download the [Robot Wars project](https://github.com/MakeSchool-Tutorials/Robot-Wars-Swift/archive/master.zip) and extract it's contents. In it, you will find a SpriteBuilder project containing a Robot Wars and a `docs/` folder that contains an html file detailing the full `Robot` class.
+To get started, download the [Robot Wars project](https://github.com/MakeSchool/RobotWar-Swift/archive/master.zip) and extract it's contents. In it, you will find a SpriteBuilder project containing a Robot Wars and a `docs/` folder that contains an html file detailing the full `Robot` class.
