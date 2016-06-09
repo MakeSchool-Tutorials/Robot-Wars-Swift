@@ -15,15 +15,17 @@ Now it's time for you to find a partner!
 
 #Getting ready!
 
+Remember, the entire documentation is in `/docs` folder in the project you downloaded. You should read it over now with your partner.
+
+Now its time to implement your own strategy. With your partner, start considering how your ideas can be translated into a state machine. Look back at the previous chapter, review the *SimpleRobot* state machine, next open *SimpleRobot.swift* and see how this state machine diagram translates into code.
+
+Once you have an idea for your first state machine you should start pair programming it together as described above. You will be working on a single computer for this assignment.
+
 To get started coding, create a new Robot by inheriting from the "Robot" class. Once you're ready to test your robot, place it's class name "Configuration.h" so it can fight against one of our default robots:
 
         static NSString \*robotClass1 = @"RobotOneClassName";
         static NSString \*robotClass2 = @"RobotTwoClassName";
 
 Begin with trying to beat SimpleRobot. Once you can do that, move on and try to defeat the other robots!
-
-Remember, the entire documentation is in `/docs` folder in the project you downloaded. You should read it over now with your partner.
-
-Now its time to try out your own strategy. With your partner, plan out a robot. Start pair programming it together as described above. You will be working on a single computer for this assignment.
 
 Good luck to you and your partner!
