@@ -3,7 +3,7 @@ title: "Robot Wars!"
 slug: robot-war
 ---
 
-We have already set up a basic `Robot` class that all robots will subclass. We'll discuss the basics here and then show you were to find the full documentation.
+We have already set up a basic `Robot` class that all robots will subclass. We'll discuss the basics here and then show you where to find the full documentation.
 
 ![](./robot.png)
 
