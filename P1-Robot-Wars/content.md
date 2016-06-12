@@ -15,7 +15,7 @@ The scanner is aimed in the same direction as the gun. It has a 90 degree angle 
 
 #Run loop
 
-Each robot has a `run()` method that gets called continually. This will be the entry point for your robot's AI and will keep it ticking as the match progresses. The robot run a bit differently than you are used to. The code execution stops at each line until it's execution is finished. Callbacks are received immediately and can respond in realtime. Once the execution of a callback is finished, it will return to it's last place in the run loop.
+Each robot has a `run()` method that gets called continually. This will be the entry point for your robot's AI and will keep it ticking as the match progresses. The robots run a bit differently than you are used to. The code execution stops at each line until it's execution is finished. Callbacks are received immediately and can respond in realtime. Once the execution of a callback is finished, it will return to it's last place in the run loop.
 
 #Robot callbacks
 
