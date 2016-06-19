@@ -6,7 +6,7 @@ slug: sample-robots
 We have written a few sample robots to give you some ideas of how to set up your AI state machine and take advantage of different callbacks.
 
 > [action]
-> Open up RobotWar.xcodeproj (within RobotWar.spritebuilder).
+> Open up RobotWarsOSX.xcodeproj.
 
 There is a *Robots* folder containing a few sample robots. You can change which robot is competing by placing the Class name of the robot in "Configuration.h":
 
