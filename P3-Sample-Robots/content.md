@@ -33,7 +33,7 @@ SimpleRobot's AI state machine diagram looks like this:
 
 Open up *TurretRobot.swift*.
 
-TurretRobot is even simpler than SimpleRobot but it's the first time we'll see the usage of explicit states. TurrentRobot defines two states as an enum called RobotState: scanning and firing. It starts off in the scanning state and continually rotates its gun right.
+TurretRobot is even simpler than SimpleRobot but it's the first time we'll see the usage of explicit states. TurretRobot defines two states as an enum called RobotState: scanning and firing. It starts off in the scanning state and continually rotates its gun right.
 
 Once the enemy is scanned, it turns it's gun towards it and moves to the firing state. In the firing state it continues to shoot. When it scans or hits the enemy, the last known position is updated and the gun is turned towards it. After 2.5 seconds without a successful scan or bullet hit, TurretRobot moves back to the scanning state.
 
