@@ -17,7 +17,7 @@ When programming simple AI, we can break down a character's responses into *stat
 
 Before we look at some code samples, let's take a look at a real world example. A coin-operated turnstile can be modeled as a simple state machine with two states: *locked* and *unlocked*.
 
-A turnstile starts in the *locked* state. The only thing that can move it to the *unlocked* state is inserting a coin (pushing on the turnstile will do nothing since it is locked). Once a coin is inserted, the turnstile moves to the *unlocked* state and will stay there until you push the turnstile (nomrally while passing through it). After it is pushed, the turnstile goes back to the *locked* state. The turnstile will continue moving through these two states forever but is still considered a *finite state machine* since there are a finite number of states (2) it can be in.
+A turnstile starts in the *locked* state. The only thing that can move it to the *unlocked* state is inserting a coin (pushing on the turnstile will do nothing since it is locked). Once a coin is inserted, the turnstile moves to the *unlocked* state and will stay there until you push the turnstile (normally while passing through it). After it is pushed, the turnstile goes back to the *locked* state. The turnstile will continue moving through these two states forever but is still considered a *finite state machine* since there are a finite number of states (2) it can be in.
 
 > [info]
 > ![](./turnstile.png)
