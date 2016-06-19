@@ -15,7 +15,7 @@ The scanner is aimed in the same direction as the gun. It has a 90 degree angle 
 
 #Run loop
 
-Each robot has a `run()` method that gets called continually. This will be the entry point for your robot's AI and will keep it ticking as the match progresses. The robots run a bit differently than you are used to. The code execution stops at each line until it's execution is finished. Callbacks are received immediately and can respond in realtime. Once the execution of a callback is finished, it will return to it's last place in the run loop.
+Each robot has a `run()` method that gets called continually. This will be the entry point for your robot's AI and will keep it ticking as the match progresses. The robots run a bit differently than you are used to. The code execution stops at each line until its execution is finished. Callbacks are received immediately and can respond in realtime. Once the execution of a callback is finished, it will return to its last place in the run loop.
 
 #Robot callbacks
 
@@ -39,9 +39,9 @@ Your robot will rely on callbacks to get updates on current game information. Yo
 
 #Robot actions
 
-You can call `moveAhead(distance: Int)`, `moveBack(distance: Int)`, `shoot()`, `turnGunLeft(degrees: Int)`, `turnGunLeft(degrees: Int)`, `turnRobotLeft(degrees: Int)`, and `turnRobotRight(degrees: Int)` from your robot class to control your robot.
+You can call `moveAhead(distance: Int)`, `moveBack(distance: Int)`, `shoot()`, `turnGunLeft(degrees: Int)`, `turnGunRight(degrees: Int)`, `turnRobotLeft(degrees: Int)`, and `turnRobotRight(degrees: Int)` from your robot class to control your robot.
 
-`cancelActiveAction()` should be used in callbacks to immediately stop the current action. If you do not call this, the current action will continue until it is finished. This means if you get hit at the beginning of a `moveAhead(100)` action and `cancelActiveAction()` is not called in the `gotHit` callback, the robot will continue to move until it reaches it's destination. Execution of the `gotHit` callback will start once it's last move is done. Starting `gotHit` with `cancelActiveAction()` will allow it's execution to begin immediately.
+`cancelActiveAction()` should be used in callbacks to immediately stop the current action. If you do not call this, the current action will continue until it is finished. This means if you get hit at the beginning of a `moveAhead(100)` action and `cancelActiveAction()` is not called in the `gotHit` callback, the robot will continue to move until it reaches its destination. Execution of the `gotHit` callback will start once its last move is done. Starting `gotHit` with `cancelActiveAction()` will allow its execution to begin immediately.
 
 #Information Retrieval
 
