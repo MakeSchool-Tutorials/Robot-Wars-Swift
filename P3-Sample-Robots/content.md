@@ -10,8 +10,8 @@ We have written a few sample robots to give you some ideas of how to set up your
 
 There is a *Robots* folder containing a few sample robots. You can change which robot is competing by placing the Class name of the robot in "Configuration.h":
 
-        static NSString \*robotClass1 = @"RobotOneClassName";
-        static NSString \*robotClass2 = @"RobotTwoClassName";
+        static NSString *robotClass1 = @"RobotOneClassName";
+        static NSString *robotClass2 = @"RobotTwoClassName";
 
 It's a good idea to check out each robot's AI in action by watching a few games between it and other robots.
 
