@@ -21,7 +21,7 @@ Each robot has a `run()` method that gets called continually. This will be the e
 
 Your robot will rely on callbacks to get updates on current game information. You should override each of these to receive the callbacks and decide what to do next. These methods will be the arrows in your robot AI's state machine diagram.
 
-##scannedRobot(robot: Robot!, atPosition position: CGPoint)
+##scannedRobot(_ robot: Robot!, atPosition position: CGPoint)
 
 `scannedRobot` gets called whenever an enemy enters your robot's scanner. The position of the enemy robot is passed in through the parameter `position`.
 
@@ -29,17 +29,17 @@ Your robot will rely on callbacks to get updates on current game information. Yo
 
 `gotHit` notifies your robot that it was just hit by an enemy bullet. It is probably a good idea to get moving when you get this callback!
 
-##hitWall(hitDirection: RobotWallHitDirection, hitAngle: CGFloat)
+##hitWall(_ hitDirection: RobotWallHitDirection, hitAngle: CGFloat)
 
 `hitWall` let's your robot know it just hit a wall at the edge of the battlefield. It's good practice to move away from the wall so that you do not get blocked in.
 
-##bulletHitEnemy(bullet: Bullet!)
+##bulletHitEnemy(at position: CGPoint)
 
 `bulletHitEnemy` is called when you successfully hit the enemy robot. You might want to use this opportunity to fire another quick shot!
 
 #Robot actions
 
-You can call `moveAhead(distance: Int)`, `moveBack(distance: Int)`, `shoot()`, `turnGunLeft(degrees: Int)`, `turnGunRight(degrees: Int)`, `turnRobotLeft(degrees: Int)`, and `turnRobotRight(degrees: Int)` from your robot class to control your robot.
+You can call `moveAhead(_ distance: Int)`, `moveBack(_ distance: Int)`, `shoot()`, `turnGunLeft(_ degrees: Int)`, `turnGunRight(_ degrees: Int)`, `turnLeft(_ degrees: Int)`, and `turnRight(_ degrees: Int)` from your robot class to control your robot.
 
 `cancelActiveAction()` should be used in callbacks to immediately stop the current action. If you do not call this, the current action will continue until it is finished. This means if you get hit at the beginning of a `moveAhead(100)` action and `cancelActiveAction()` is not called in the `gotHit` callback, the robot will continue to move until it reaches its destination. Execution of the `gotHit` callback will start once its last move is done. Starting `gotHit` with `cancelActiveAction()` will allow its execution to begin immediately.
 
@@ -55,7 +55,7 @@ You have access to `hitPoints()`, `robotBodySize()`, `position()`, `gunHeadingDi
 
 `angleBetweenHeadingDirectionAndWorldPosition` returns the angle between the heading direction of the robot and an arbitrary point. Use this information to turn the robot in the direction / opposite direction of a detected object.
 
-###angleBetweenGunHeadingDirectionAndWorldPosition(position: CGPoint) -> CGFloat
+###angleBetweenGunHeadingDirectionAndWorldPosition(_ position: CGPoint) -> CGFloat
 
 `angleBetweenGunHeadingDirectionAndWorldPosition` returns the angle between the heading direction of the gun of the robot and an arbitrary point. Use this information to turn the gun of the robot in the direction / opposite direction of a detected object.
 
@@ -65,4 +65,4 @@ You have access to `hitPoints()`, `robotBodySize()`, `position()`, `gunHeadingDi
 
 #Getting started
 
-To get started, download the [Robot Wars project](https://github.com/MakeSchool-Tutorials/Robot-Wars-SpriteKit/archive/master.zip) and extract it's contents. In it, you will find a SpriteKit project containing a Robot Wars and a `docs/` folder that contains an html file detailing the full `Robot` class.
+To get started, download the [Robot Wars project](https://github.com/MakeSchool-Tutorials/Robot-Wars-SpriteKit/archive/swift3.zip) and extract it's contents. In it, you will find a SpriteKit project containing Robot Wars.

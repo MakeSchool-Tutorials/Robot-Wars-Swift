@@ -23,8 +23,8 @@ Once you have an idea for your first state machine you should start pair program
 
 To get started coding, create a new Robot by inheriting from the "Robot" class. Once you're ready to test your robot, place it's class name "Configuration.h" so it can fight against one of our default robots:
 
-        static NSString \*robotClass1 = @"RobotOneClassName";
-        static NSString \*robotClass2 = @"RobotTwoClassName";
+        static NSString *robotClass1 = @"RobotOneClassName";
+        static NSString *robotClass2 = @"RobotTwoClassName";
 
 Begin with trying to beat SimpleRobot. Once you can do that, move on and try to defeat the other robots!
 
